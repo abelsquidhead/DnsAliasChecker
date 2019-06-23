@@ -19,3 +19,5 @@
         --storage-account $IAC_EXCLUSIVE_FUNCTIONDNSCHECKERSTORAGENAME \
         --runtime $IAC_FUNCTIONDNSCHECKERRUNTIME
     echo ""
+
+
