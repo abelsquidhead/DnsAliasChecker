@@ -9,5 +9,5 @@ echo ""
 REM this creates the function for the dns checker
 REM
 echo "create the function app for the back end "
-    az functionapp create --resource-group %IAC_EXCLUSIVE_RESOURCEGROUPNAME% --consumption-plan-location %IAC_FUNCTIONDNSCHECKERCONSUMPTIONPLANREGION% --name %IAC_EXCLUSIVE_FUNCTIONDNSCHECKERNAME% --storage-account %IAC_EXCLUSIVE_FUNCTIONDNSCHECKERSTORAGENAME% --runtime %IAC_FUNCTIONDNSCHECKERRUNTIME%
+az functionapp create --resource-group %IAC_EXCLUSIVE_RESOURCEGROUPNAME% --consumption-plan-location %IAC_FUNCTIONDNSCHECKERCONSUMPTIONPLANREGION% --name %IAC_EXCLUSIVE_FUNCTIONDNSCHECKERNAME% --storage-account %IAC_EXCLUSIVE_FUNCTIONDNSCHECKERSTORAGENAME% --runtime %IAC_FUNCTIONDNSCHECKERRUNTIME%
 echo ""
